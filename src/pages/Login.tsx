@@ -20,16 +20,9 @@ export function Login() {
     };
 
     return (
-        <Box
-            style={{
-                minHeight: '100vh',
-                display: 'flex',
-                alignItems: 'center',
-            }}
-        >
+        <Box style={{ minHeight: '100vh', display: 'flex', alignItems: 'center' }}>
             <Container size={420}>
                 <Title ta="center" mb={30}>Welcome Back</Title>
-
                 <Paper withBorder shadow="md" p={30} radius="md">
                     <form onSubmit={handleSubmit}>
                         <Stack>
